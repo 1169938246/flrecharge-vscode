@@ -1,0 +1,31 @@
+{
+	"b_formItemLayout": {
+		"prefix": "b_formItemLayout",
+		"body": [
+		  "const formItemLayout = {",
+		  "    labelCol: { span: 4 },",
+		  "    wrapperCol: { span: 12 },",
+		  "};",
+		  "const formItemLayout2 = {",
+		  "    labelCol: { span: 4 },",
+		  "    wrapperCol: { span: 16 },",
+		  "};",
+		  "const formItemLayout3 = {",
+		  "    labelCol: { span: 4 },",
+		  "    wrapperCol: { span: 20 },",
+		  "};",
+		  "const formItemLayout4 = {",
+		  "    labelCol: { span: 4 },",
+		  "    wrapperCol: { span: 16, offset: 4 },",
+		  "};",
+		  "const formItemLayout5 = {",
+		  "    wrapperCol: { span: 8 },",
+		  "};",
+		  "const formTailLayout = {",
+		  "    labelCol: { span: 4 },",
+		  "    wrapperCol: { span: 20, offset: 4 },",
+		  "};"
+		],
+		"description": "b_formItemLayout"
+	  }
+}

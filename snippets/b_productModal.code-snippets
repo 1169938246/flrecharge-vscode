@@ -1,0 +1,14 @@
+{
+    "b_productModal": {
+        "prefix": "b_productModal",
+        "body": [
+          "<FormItem label=\"$1\" {...formItemLayout2}>",
+          "            {/* 需要手动引入 import ProductModal from \"../ProductModal\"; 组件  */}",
+          "            {getFieldDecorator(\"$2\", {",
+          "                initialValue: detailData.$2,",
+          "            })(<ProductModal />)}",
+          "        </FormItem>"
+        ],
+        "description": "b_productModal"
+      }
+}

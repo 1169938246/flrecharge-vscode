@@ -1,0 +1,29 @@
+{
+	"b_switch_tip": {
+		"prefix": "b_switch_tip",
+		"body": [
+		  "<FormItem {...formItemLayout} ",
+		  "  label={",
+		  "    // 带ICON提示的Tooltip",
+		  "    <span>",
+		  "       $1 &nbsp;",
+		  "        <Tooltip title=\"提示\">",
+		  "            <Icon type=\"question-circle-o\" />",
+		  "        </Tooltip>",
+		  "    </span>",
+		  "}",
+		  " >",
+		  "  {getFieldDecorator(",
+		  "    \"$2\",",
+		  "    {",
+		  "      valuePropName: \"checked\",",
+		  "      rules: [",
+		  "        { required: true, message: \"请输入$1\" },",
+		  "      ],",
+		  "    }",
+		  "  )( <Switch checkedChildren=\"是\" unCheckedChildren=\"否\"/> )}",
+		  "</FormItem>"
+		],
+		"description": "b_switch_tip"
+	  }
+}

@@ -1,0 +1,18 @@
+{
+	"b_radio_extra": {
+		"prefix": "b_radio_extra",
+		"body": [
+		  "<FormItem {...formItemLayout} label=\"$1\" extra=\"$3\" >",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        rules: [{ required: true, message: \"请选择$1\" }],",
+		  "        })(",
+		  "          <RadioGroup>",
+		  "              <Radio value={true}>是</Radio>",
+		  "              <Radio value={false}>否</Radio>",
+		  "          </RadioGroup>",
+		  "    )}",
+		  "</FormItem>"
+		],
+		"description": "b_radio_extra"
+	  }
+}

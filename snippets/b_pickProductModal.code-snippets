@@ -1,0 +1,14 @@
+{
+	"b_pickProductModal": {
+		"prefix": "b_pickProductModal",
+		"body": [
+		  "<FormItem {...formItemLayout2} label=\"$1\">",
+		  "{/* 需要手动引入 import PickProductModal from \"../PickProductModal\"; 组件  */}",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        initialValue: detailData.$2,",
+		  "        })(<PickProductModal  />)}",
+		  "</FormItem>"
+		],
+		"description": "b_pickProductModal"
+	  }
+}

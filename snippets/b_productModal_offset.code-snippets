@@ -1,0 +1,18 @@
+{
+	"b_productModal ": {
+		"prefix": "b_productModal ",
+		"body": [
+		  "<Row>",
+		  "    <Col offset={4}>",
+		  "        <FormItem>",
+		  "            {/* 需要手动引入 import ProductModal from \"../ProductModal\"; 组件  */}",
+		  "            {getFieldDecorator(\"$1\", {",
+		  "                initialValue: detailData.$1,",
+		  "            })(<ProductModal />)}",
+		  "        </FormItem>",
+		  "    </Col>",
+		  "</Row>"
+		],
+		"description": "b_productModal "
+	  }
+}

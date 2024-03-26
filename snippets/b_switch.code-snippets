@@ -1,0 +1,19 @@
+{
+	"b_switch": {
+		"prefix": "b_switch",
+		"body": [
+		  "<FormItem {...formItemLayout} label=\"$1\">",
+		  "  {getFieldDecorator(",
+		  "    \"$2\",",
+		  "    {",
+		  "      valuePropName: \"checked\",",
+		  "      rules: [",
+		  "        { required: true, message: \"请输入$1\" },",
+		  "      ],",
+		  "    }",
+		  "  )( <Switch checkedChildren=\"是\" unCheckedChildren=\"否\"/> )}",
+		  "</FormItem>"
+		],
+		"description": "b_switch"
+	  }
+}

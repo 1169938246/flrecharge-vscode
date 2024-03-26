@@ -1,0 +1,24 @@
+{
+	"b_checkbox_all": {
+		"prefix": "b_checkbox_all",
+		"body": [
+		  "<FormItem {...formItemLayout2} label={",
+		  "    // 基础复选框集合",
+		  "    <span>",
+		  "        $1&nbsp;",
+		  "        <Tooltip title=\"提示\">",
+		  "            <Icon type=\"question-circle-o\" />",
+		  "        </Tooltip>",
+		  "    </span>",
+		  "}",
+		  "  extra=\"$3\"",
+		  ">",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        valuePropName: \"checked\",",
+		  "        rules: [{ required: true, message: \"请输入$1\" }],",
+		  "        })(<Checkbox></Checkbox>)}",
+		  "</FormItem>"
+		],
+		"description": "b_checkbox_all"
+	  }
+}

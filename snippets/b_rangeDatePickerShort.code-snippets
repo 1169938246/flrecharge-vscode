@@ -1,0 +1,19 @@
+{
+	"b_rangeDatePickerShort": {
+		"prefix": "b_rangeDatePickerShort",
+		"body": [
+		  "{/*单项时间控件，自带开始时间，结束时间",
+		  "import RangeDatePickerShort from \"../RangeDatePickerShort\";",
+		  "*/}",
+		  "<FormItem {...formItemLayout} label={<span><span  style={{color:\"red\",marginRight:\"4px\",fontFamily:\"SimSun,sans-serif\"}}>*</span>活动时间</span>} style={{ marginBottom: 0 }}>",
+		  "   <RangeDatePickerShort",
+		  "   form={this.props.form}",
+		  "   startFieldName=\"startTime\"",
+		  "   endFieldName=\"endTime\"",
+		  "   detailData={detailData}",
+		  "   />",
+		  "</FormItem>"
+		],
+		"description": "b_rangeDatePickerShort"
+	  }
+}

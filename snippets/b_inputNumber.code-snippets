@@ -1,0 +1,14 @@
+{
+	"b_inputNumber": {
+		"prefix": "b_inputNumber",
+		"body": [
+		  "<FormItem {...formItemLayout2} label=\"$1\">",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        rules: [{ required: true, message: \"$1\" }],",
+		  "        })(<InputNumber min={1} max={12} placeholder='1~12' precision={0} />)}",
+		  "        <span> $3</span>",
+		  "</FormItem>"
+		],
+		"description": "b_inputNumber"
+	  }
+}

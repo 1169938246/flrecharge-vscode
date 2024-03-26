@@ -1,0 +1,14 @@
+{
+	"b_couponsModalSingle": {
+		"prefix": "b_couponsModalSingle",
+		"body": [
+		  "<FormItem {...formItemLayout2} label=\"选择优惠券\">",
+		  "{/* 需要手动引入 import CouponsModalSingle from \"../CouponsModalSingle\"; 组件  */}",
+		  "    {getFieldDecorator(\"$1\", {",
+		  "      initialValue:detailData.$1",
+		  "        })(<CouponsModalSingle />)}",
+		  "</FormItem>"
+		],
+		"description": "b_couponsModalSingle"
+	  }
+}

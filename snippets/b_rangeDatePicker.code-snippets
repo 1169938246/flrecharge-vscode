@@ -1,0 +1,19 @@
+{
+	"b_rangeDatePicker": {
+		"prefix": "b_rangeDatePicker",
+		"body": [
+		  "{/* 长时间控件  ",
+		  "import RangeDatePicker from \"../RangeDatePicker\";",
+		  "tiemArr提交的时候记得处理一下，startTime = timeArr[0],endTime = timeArr[1]",
+		  "编辑的时候记得将startTime,endTime 合并成 tiemArr = [startTime,endTime]",
+		  "*/}",
+		  "<FormItem {...formItemLayout} label=\"长时间组件\">",
+		  "  {getFieldDecorator(\"timeArr\", {",
+		  "    rules: [{ required: true, message: \"请选择长时间组件\" }],",
+		  "    initialValue: detailData.timeArr,",
+		  "  })(<RangeDatePicker showTime/>)}",
+		  "</FormItem>"
+		],
+		"description": "b_rangeDatePicker"
+	  }
+}

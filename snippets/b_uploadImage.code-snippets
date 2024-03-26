@@ -1,0 +1,20 @@
+{
+	"b_uploadImage": {
+		"prefix": "b_uploadImage",
+		"body": [
+		  "<FormItem",
+		  "    {...formItemLayout2}",
+		  "    label=\"上传组件\"",
+		  "    extra=\"图片建议尺寸：606像素*202像素，大小不超过2M。\"",
+		  ">",
+		  "    {getFieldDecorator(\"brandLogo\", {",
+		  "        rules: [{ required: true, message: \"请上传图片\" }],",
+		  "        initialValue:detailData.brandLogo",
+		  "    })(",
+		  "        <UploadImage imgSize={10000}/>",
+		  "    )}",
+		  "</FormItem>"
+		],
+		"description": "b_uploadImage"
+	  }
+}

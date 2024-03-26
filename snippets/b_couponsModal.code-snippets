@@ -1,0 +1,22 @@
+{
+	"b_couponsModal": {
+		"prefix": "b_couponsModal",
+		"body": [
+		  "{/* 优惠券组件，多选类型  */}",
+		  "<Row>",
+		  "  <Col offset={4}>",
+		  "    <FormItem label=\"\">",
+		  "        {/* 需要手动引入 import CouponsModal from \"../CouponsModal\"; 组件  */}",
+		  "      {getFieldDecorator(\"$1\", {",
+		  "        rules: [{ required: true, message: \"请输入\" }],",
+		  "        initialValue: detailData.$1",
+		  "      })(",
+		  "        <CouponsModal />",
+		  "      )}",
+		  "    </FormItem>",
+		  "  </Col>",
+		  "</Row>"
+		],
+		"description": "b_couponsModal"
+	  }
+}

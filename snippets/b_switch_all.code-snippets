@@ -1,0 +1,30 @@
+{
+	"b_switch_all": {
+		"prefix": "b_switch_all",
+		"body": [
+		  "<FormItem {...formItemLayout} ",
+		  "  label={",
+		  "    // 带ICON提示的Tooltip",
+		  "    <span>",
+		  "       $1 &nbsp;",
+		  "        <Tooltip title=\"提示\">",
+		  "            <Icon type=\"question-circle-o\" />",
+		  "        </Tooltip>",
+		  "    </span>",
+		  "}",
+		  "  extra=\"$3\"",
+		  " >",
+		  "  {getFieldDecorator(",
+		  "    \"$2\",",
+		  "    {",
+		  "      valuePropName: \"checked\",",
+		  "      rules: [",
+		  "        { required: true, message: \"请输入测试$1\" },",
+		  "      ],",
+		  "    }",
+		  "  )( <Switch checkedChildren=\"是\" unCheckedChildren=\"否\"/> )}",
+		  "</FormItem>",
+		],
+		"description": "b_switch_all"
+	  }
+}

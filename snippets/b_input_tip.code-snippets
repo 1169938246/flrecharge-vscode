@@ -1,0 +1,21 @@
+{
+	"b_input_tip": {
+		"prefix": "b_input_tip",
+		"body": [
+		  "<FormItem {...formItemLayout2} label={",
+		  "    // 带ICON提示的Tooltip",
+		  "    <span>",
+		  "        $1&nbsp;",
+		  "        <Tooltip title=\"提示\">",
+		  "            <Icon type=\"question-circle-o\" />",
+		  "        </Tooltip>",
+		  "    </span>",
+		  "}>",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        rules: [{ required: true, message: \"请输入$1\" }],",
+		  "        })(<Input placeholder=\"最多15个字符\" maxLength={15} />)}",
+		  "</FormItem>"
+		],
+		"description": "b_input_tip"
+	  }
+}

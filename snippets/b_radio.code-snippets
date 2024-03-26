@@ -1,0 +1,18 @@
+{
+	"b_radio": {
+		"prefix": "b_radio",
+		"body": [
+		  "<FormItem {...formItemLayout} label=\"单选框\">",
+		  "    {getFieldDecorator(\"$1\", {",
+		  "        rules: [{ required: true, message: \"请选择单选框\" }],",
+		  "        })(",
+		  "          <RadioGroup>",
+		  "              <Radio value={true}>是</Radio>",
+		  "              <Radio value={false}>否</Radio>",
+		  "         </RadioGroup>",
+		  "    )}",
+		  "</FormItem>"
+		],
+		"description": "b_radio"
+	  }
+}											

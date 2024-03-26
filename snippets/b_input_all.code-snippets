@@ -1,0 +1,25 @@
+{
+	"b_input_all": {
+		"prefix": "b_input_all",
+		"body": [
+		  "<FormItem",
+		  "  {...formItemLayout2}",
+		  "  label={",
+		  "    //全部的input",
+		  "    <span>",
+		  "     $1 &nbsp;",
+		  "      <Tooltip title=\"提示\">",
+		  "        <Icon type=\"question-circle-o\" />",
+		  "      </Tooltip>",
+		  "    </span>",
+		  "  }",
+		  "  extra=\"$3\"",
+		  ">",
+		  "  {getFieldDecorator(\"$2\", {",
+		  "    rules: [{ required: true, message: \"请输入$1\" }],",
+		  "  })(<Input placeholder=\"最多15个字符\" maxLength={15} />)}",
+		  "</FormItem>"
+		],
+		"description": "b_input_all"
+	  }
+}

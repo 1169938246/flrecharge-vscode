@@ -1,0 +1,15 @@
+{
+	"b_checkbox_extra": {
+		"prefix": "b_checkbox_extra",
+		"body": [
+		  "<FormItem {...formItemLayout2} label=\"$1\" extra=\"$3\">",
+		  "    {/* 基础复选框 */}",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        valuePropName: \"checked\",",
+		  "        rules: [{ required: true, message: \"请输入$1\" }],",
+		  "    })(<Checkbox></Checkbox>)}",
+		  "</FormItem>"
+		],
+		"description": "b_checkbox_extra"
+	  }
+}

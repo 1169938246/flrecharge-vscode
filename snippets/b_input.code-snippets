@@ -1,0 +1,18 @@
+{
+	"b_input": {
+		"prefix": "b_input",
+		"body": [
+		  "<FormItem {...formItemLayout} label=\"$1\">",
+		  "  {getFieldDecorator(\"$2\", {",
+		  "    rules: [{ required: true, message: \"请输入$1\" }],",
+		  "  })(",
+		  "    <Input",
+		  "      placeholder=\"最多20个字符\"",
+		  "      maxLength={20}",
+		  "    />",
+		  "  )}",
+		  "</FormItem>"
+		],
+		"description": "b_input"
+	  }
+}

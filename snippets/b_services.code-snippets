@@ -1,0 +1,23 @@
+{
+	"b_services": {
+		"prefix": "b_services",
+		"body": [
+		  "import axios from '../utils/axios';",
+		  "import Api from '../configs/api';",
+		  "//列表",
+		  "export function list(params) {",
+		  "    return axios.get(configs.host.test + Api.example, { params });",
+		  "}",
+		  "//详情",
+		  "export function detail(params) {",
+		  "    return axios.get(configs.host.test + Api.example, { params });",
+		  "}",
+		  "// 保存",
+		  "export function save(params) {",
+		  "    return axios.post(configs.host.test + Api.example, params);",
+		  "}",
+		  ""
+		],
+		"description": "b_services"
+	  }
+}

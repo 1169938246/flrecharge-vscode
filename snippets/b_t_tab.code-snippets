@@ -1,0 +1,24 @@
+{
+	"b_t_tab": {
+		"prefix": "b_t_tab",
+		"body": [
+		  "  //此函数为了便捷放在此处，生成代码后自行挪到函数地方",
+		  "   changeTab = (value) => {",
+		  "      const { postData } = this.state;",
+		  "      postData.Status = value;",
+		  "      this.setState({",
+		  "         postData",
+		  "      }, () => {",
+		  "         this.getData();",
+		  "      })",
+		  "   }",
+		  " <Tabs defaultActiveKey={''} style={{ marginTop: '20px' }} onChange={this.changeTab} type=\"card\">",
+		  "                     <TabPane tab={'全部'} key={''}></TabPane>",
+		  "                     <TabPane tab={'未开始'} key={'1'}></TabPane>",
+		  "                     <TabPane tab={'进行中'} key={'2'}></TabPane>",
+		  "                     <TabPane tab={'已结束'} key={'3'}></TabPane>",
+		  "                  </Tabs>"
+		],
+		"description": "b_t_tab"
+	  }
+}

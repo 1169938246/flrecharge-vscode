@@ -1,0 +1,43 @@
+{
+	"b_selectDate_day": {
+		"prefix": "b_selectDate_day",
+		"body": [
+		  "<Row>",
+		  "    {/*适用于一行内多个组件情况 selectDate 1~30号*/}",
+		  "",
+		  "    <Col offset={4} style={{ display: \"flex\" }}>",
+		  "        <FormItem>",
+		  "            <span>自定义文案 </span>",
+		  "            {getFieldDecorator(\"delayDay\", {",
+		  "                rules: [{ required: true, message: \"请输入自定义文案\" }],",
+		  "            })(<InputNumber min={1} max={12} placeholder='1~12' precision={0} />)}",
+		  "            <span> 自定义文案</span>",
+		  "        </FormItem>",
+		  "",
+		  "",
+		  "        <FormItem>",
+		  "            {getFieldDecorator(\"processStartDay\", {",
+		  "                rules: [{ required: true, message: \"请输入自定义文案\" }],",
+		  "                initialValue: detailData.processStartDay,",
+		  "            })(<SelectDate type=\"day\" />)}",
+		  "        </FormItem>",
+		  "",
+		  "",
+		  "        <FormItem>",
+		  "            <span>至</span>",
+		  "            {getFieldDecorator(\"processEndDay\", {",
+		  "                rules: [{ required: true, message: \"请输入自定义文案\" }],",
+		  "                initialValue: detailData.processEndDay,",
+		  "            })(<SelectDate type=\"day\" />)}",
+		  "            <span>有效</span>",
+		  "        </FormItem>",
+		  "",
+		  "    </Col>",
+		  "    <Col offset={4}>",
+		  "        <p>tips:自定义文案</p>",
+		  "    </Col>",
+		  "</Row>"
+		],
+		"description": "b_selectDate_day"
+	  }
+}

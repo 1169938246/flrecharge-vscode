@@ -1,0 +1,28 @@
+{
+	"b_radio_interactive_notLabel": {
+		"prefix": "b_radio_interactive_notLabel",
+		"body": [
+		  "<FormItem {...formItemLayout} label=\"$1\">",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        rules: [{ required: true, message: \"请选择$1\" }],",
+		  "    })(",
+		  "        <RadioGroup>",
+		  "            <Radio value={1}>交互1</Radio>",
+		  "            <Radio value={2}>交互2</Radio>",
+		  "        </RadioGroup>",
+		  "    )}",
+		  "</FormItem>",
+		  "{/* 根据 interactive 值动态决定是否渲染新的FormItem--不带label */}",
+		  "{this.props.form.getFieldValue('$2') === 1 &&",
+		  "    <FormItem {...formItemLayout4} >",
+		  "        <span>自定义文案&nbsp;</span>",
+		  "        {getFieldDecorator(\"$3\", {",
+		  "            rules: [{ required: true, message: \"请输入自定义文案\" }],",
+		  "        })(<InputNumber min={1} max={12} placeholder='1~12' precision={0} />)}",
+		  "        <span>自定义文案</span>",
+		  "    </FormItem>",
+		  "}"
+		],
+		"description": "b_radio_interactive_notLabel"
+	  }
+}

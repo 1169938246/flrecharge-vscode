@@ -1,0 +1,220 @@
+{
+  "name": "fulu-snippets",
+  "displayName": "fulu-snippets",
+  "description": "",
+  "version": "0.0.27",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "icon": "resources/icon.png",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/b_checkbox.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_checkbox_all.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_checkbox_extra.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_checkbox_tip.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_couponsModal.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_couponsModalSingle.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_editor.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_form.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_formItemLayout.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_form_modal.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_input.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_inputNumber.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_inputNumber_all.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_inputNumber_extra.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_inputNumber_tip.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_input_all.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_input_extra.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_input_tip.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_marketingActivityBox_imageStepForm.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_marketingActivityBox_imageStepForm_false.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_MarketingActivityBox_navImageStepForm.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_models.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_pickProductModal.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_productModal.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_productModal_offset.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_radio.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_radio_all.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_radio_extra.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_radio_interactive.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_radio_interactive_notLabel.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_radio_tip.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_radio_vertical.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_rangeDatePicker.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_rangeDatePickerShort.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_select.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_selectDate_day.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_select_all.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_select_extra.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_select_tip.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_select_two.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_services.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_switch.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_switch_all.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_switch_extra.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_switch_tip.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_t_list.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_t_tab.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/b_uploadImage.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "publisher": "fulu-snippets",
+  "repository": {},
+  "scripts": {
+    "generate-snippets": "node ./generateSnippetsConfig.js",
+    "prebuild": "npm run generate-snippets",
+    "build": "vsce publish patch"
+  }
+}

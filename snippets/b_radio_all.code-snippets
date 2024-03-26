@@ -1,0 +1,28 @@
+{
+	"b_radio_all": {
+		"prefix": "b_radio_all",
+		"body": [
+		  "<FormItem {...formItemLayout} label={",
+		  "    // 全部",
+		  "    <span>",
+		  "       $1 &nbsp;",
+		  "        <Tooltip title=\"提示\">",
+		  "            <Icon type=\"question-circle-o\" />",
+		  "        </Tooltip>",
+		  "    </span>",
+		  "}",
+		  "extra=\"$3\"",
+		  ">",
+		  "    {getFieldDecorator(\"$2\", {",
+		  "        rules: [{ required: true, message: \"请选择$1\" }],",
+		  "        })(",
+		  "          <RadioGroup>",
+		  "              <Radio value={true}>是</Radio>",
+		  "              <Radio value={false}>否</Radio>",
+		  "         </RadioGroup>",
+		  "    )}",
+		  "</FormItem>"
+		],
+		"description": "b_radio_all"
+	  }
+}
